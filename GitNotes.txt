@@ -1,0 +1,21 @@
+Install Git
+Add user: 
+	git config --global user.name “myname”
+	git config --global user.name myemail@email.com
+Install VScode
+Add vscode to the path
+Make default editor vscode in Git 
+	git config --global core.editor "code --wait"
+Open the default editor to check and edit all the global settings
+	git config --global -e
+How git handle end of lines for Mac
+	git config --global core.autocrlf input
+Get help
+	git config --help
+	git config -h
+Create a directory
+	mkdir Notes
+Go into the directory
+	cd Notes
+Initialise
+	git init
