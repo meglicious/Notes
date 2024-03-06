@@ -19,3 +19,5 @@ Go into the directory
 	cd Notes
 Initialise
 	git init
+Commint and push at the same time
+    git commit -m "comment" && git push
